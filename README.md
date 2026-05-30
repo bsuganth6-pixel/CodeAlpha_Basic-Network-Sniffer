@@ -1,10 +1,10 @@
 # CodeAlpha_Basic-Network-Sniffer
-Basic Network Sniffer
-Overview
+#Basic Network Sniffer
+##Overview
 This project is a simple Python-based Network Sniffer built using the Scapy library. It captures network packets in real time, analyzes their structure, and displays useful information such as source and destination IP addresses, protocols, ports, and payload data.
 The project helps beginners understand how data travels through networks and how common protocols such as TCP, UDP, and ICMP operate.
 ________________________________________
-Features
+##Features
 ●	Capture live network packets
 ●	Identify TCP, UDP, and ICMP protocols
 ●	Display source and destination IP addresses
@@ -13,11 +13,11 @@ Features
 ●	Detect and display non-IP packets
 ●	Capture a specified number of packets before stopping
 ________________________________________
-Technologies Used
+##Technologies Used
 ●	Python 3
 ●	Scapy
 ________________________________________
-Installation
+##Installation
 1. Clone the Repository
 git clone https://github.com/your-username/basic-network-sniffer.git
 cd basic-network-sniffer
@@ -32,7 +32,7 @@ During installation, enable:
 ●	Install Npcap in WinPcap API-compatible Mode
 ●	Start Npcap driver at boot time
 ________________________________________
-Usage
+##Usage
 Run the script with administrator/root privileges.
 python basic_packet_sniffer.py
 
@@ -57,7 +57,7 @@ Payload (first 60 bytes): b'...'
 ------------------------------------------------------------
 
 ________________________________________
-Project Structure
+##Project Structure
 Basic-Network-Sniffer/
 │
 ├── basic_packet_sniffer.py
